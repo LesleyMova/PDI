@@ -6,6 +6,51 @@
     <title>Formulario de Feedback</title>
 </head>
 <body>
+    <h1>Formulario de Feedback</h1>
+    <form action="#" method="post"> 
+<!-- ´<Form>´: Etiqueta que define un formulario web.  Atributo ´action´ indica a dónde se enviarán los datos del formulario. 
+    Atributo ´method´ especifica cómo se enviarán esos datos -->
+    
+        <label for="nombre">Nombre:</label> 
+<!-- ´<Label<´: Se indica que se está creando una etiqueta de texto como un campo de entrada (<input>), un área de texto. -->
+
+        <input type="text" id="nombre" name="nombre"><br><br>
+<!-- ´<Input>´: utilizado para crear diferentes tipos de campos de entrada en un formulario. En este caso, se está utilizando para 
+    crear un campo de entrada de texto.
+    ´type´: especifica el tipo de campo de entrada que se está creando.
+    ´id´ se utiliza para proporcionar una identificación única al campo de entrada. -->
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+<!-- ´<Textarea>´: área de texto. -->
+
+        <label for="calificacion">Calificación:</label>
+        <select id="calificacion" name="calificacion" required>
+<!-- ´<Select>´: utilizado para crear un menú desplegable o una lista de opciones. Los usuarios pueden 
+    seleccionar una de las opciones de la lista. -->
+
+            <option value="10">10</option>
+<!-- ´option´:  representa una opción en una lista desplegable o en una lista de opciones personalizada.
+     ´value´: especifica el valor asociado con la opción. -->
+
+            <option value="9">9</option>
+            <option value="8">8</option>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option> 
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+<!-- ´type="submit"´: Esta parte de la etiqueta <input> especifica que se trata de un botón de envío -->
+
+    </form>
     
 </body>
 </html>

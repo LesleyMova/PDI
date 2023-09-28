@@ -8,20 +8,42 @@ body{
     width: 100%;
 }
 
+nav{
+    background-color: #FFB4A2;
+}
+
+
 ul{
     display: flex;
-    border: 2px black solid;
+    justify-content: space-evenly;
     padding: 10px;
 }
 
 li{
-    border: 2px red solid;
+    margin-top: 50px;
     width: 100px;
+    height: 50px;
     list-style: none;
     font-size: 22px;
+    text-align: center;
+    display:flex;
+}
+
+li:hover{
+    background-color: #6D6875;
+    opacity: 50%;
+    border-radius: 200%;
+    height: auto;
+    align-items: center;
 }
 
 a{
-    color: black;
+    color: #6D6875;
     text-decoration: none;
+}
+
+img{
+    width: 50%;
+    display: block;
+    height: auto;
 }

@@ -31,19 +31,3 @@ form {
     border: 1px solid #e39e9e;
     border-radius: 5px;
   }
-  
-  /* Estilo para el botón de envío (si lo tienes) */
-input[type="submit"] {
-  background-color: #6c59ed;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-/* Estilo para el botón de envío al pasar el ratón */
-input[type="submit"]:hover {
-  background-color: #6c59ed;
-}

@@ -33,7 +33,7 @@ form {
   }
   
   /* Estilo para el botón de envío (si lo tienes) */
-input[type="submit"] {
+button[type="submit"] {
   background-color: #6c59ed;
   color: #fff;
   padding: 10px 20px;
@@ -44,6 +44,6 @@ input[type="submit"] {
 }
 
 /* Estilo para el botón de envío al pasar el ratón */
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   background-color: #6c59ed;
 }

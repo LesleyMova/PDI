@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos cuando el mouse está sobre el botón */
+.boton:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.loader {
+    width: 0;
+    height: 4px;
+    background-color: #3498db;
+    animation: load 3s infinite;
+}
+
+/* Animación de la barra de carga */
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

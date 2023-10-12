@@ -36,3 +36,37 @@
         width: 100%;
     }
 }
+
+/* Estilos de la tarjeta */
+.tarjeta {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/* Estilos cuando el mouse está sobre la tarjeta */
+.tarjeta:hover {
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-align: center; 
+}
+
+/* Estilos para la imagen */
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    box-align: center; 
+}
+
+/* Estilos para el texto */
+.tarjeta p {
+    margin: 10px;
+}

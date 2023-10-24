@@ -1,0 +1,22 @@
+.cara {
+    fill: #5ec7fc;
+    stroke: #0f0384;
+    stroke-width: 2;
+}
+
+.ojo {
+    fill: #a5ffbd;
+    stroke: #047700;
+}
+
+.cejas {
+    stroke: #8f3c00;
+    stroke-width: 4;
+    stroke-linecap: round;
+}
+
+.boca {
+    fill: #fc89d8;
+    stroke: #d82c2c;
+    stroke-width: 2;
+}
